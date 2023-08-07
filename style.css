@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container{
+    height: 100vh;
+    background-image:conic-gradient(black, rgb(0, 195, 255),black,black, rgb(0, 195, 255),black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .coursecard{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border-radius: 1.5em;
+  }
+  .image1{
+    border-radius: 0.7em .7em .7em .7em;
+    width: 400px;
+    margin: 1.5em;
+  }
+  .text{
+    text-align: left;
+  }
+  .heading{
+    margin-left: 1.1em;
+    font-size: 1.4em;
+    font-weight:bold;
+  }
+  .line{
+    margin-left: 1.5em;
+    margin-right: 1.8em;
+    margin-top: .5em;
+  }
+  .amount{
+    margin-top: .8em;
+    margin-left: 1.1em
+  }
+  .price{
+    margin-left: .8em;
+    margin-right: 1em;
+    font-size: larger;
+    font-weight:bold;
+    color: rgb(146, 64, 235);
+  }
+  .strikeprice{
+    margin-right: 1em;
+    font-size: larger;
+    font-weight:bold;
+    color: rgb(174, 169, 169);
+    text-decoration: line-through;
+  }
+  .offer{
+    background-color: rgb(99, 224, 149);
+    padding: .3em;
+    font-size:medium;
+    font-weight:bold;
+    border-radius:.4em;
+    color: whitesmoke;
+  }
+  .price:hover{
+    color:rgb(184, 139, 232) ;
+  }
